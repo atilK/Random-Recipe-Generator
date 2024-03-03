@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+	background-color: rgb(111, 236, 250);
+	background-image: "https://img.freepik.com/free-photo/handrawn-barbecue-elements_125540-588.jpg?w=996&t=st=1709302968~exp=1709303568~hmac=20ea154eab2654ea4566f08c4a340a451e36698a87357d2ca90e58dbc2fa5197";
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+h1 {
+	margin: 0;
+	font-style: bold;
+	font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 120px;
+	color: black;
+	background-color: white;
+    opacity: 1;
+	background-size: contain;
+    display: inline;
+	
+}
+
+h3 {
+	margin: 10px 0;
+	font-style: bold;
+	font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 50px;
+	color: black;
+	background-size: contain;
+	background-color: white;
+    opacity: 1;
+    display: inline;
+}
+
+button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+li {
+	margin-bottom: 0;
+}
+
+.meal {
+	margin: 20px 0;
+	background-color:aquamarine;
+	opacity: 1;
+	background-size: contain;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.videoWrapper {
+	position: sticky;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
