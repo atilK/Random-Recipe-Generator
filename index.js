@@ -58,14 +58,16 @@ const createMeal = meal => {
 		<div class="row">
 			<h5>Video Recipe</h5>
 			<div class="videoWrapper">
-				<iframe width="420" height="315"
-				src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}">
+				<iframe width="560" height="349"
+				src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}"
+				frameborder="0" a>
 				</iframe>
 			</div>
 		</div>`
 				: ''
 		}
 	`;
-
 	meal_container.innerHTML = newInnerHTML;
+	meal_container.classList.remove("meal");
+	meal_container.classList.add("meal_after");
 };

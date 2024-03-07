@@ -11,7 +11,6 @@ body {
 	align-items: center;
 	padding: 30px 0;
 	min-height: 100vh;
-	background-color: rgb(111, 236, 250);
 	background-image: "https://img.freepik.com/free-photo/handrawn-barbecue-elements_125540-588.jpg?w=996&t=st=1709302968~exp=1709303568~hmac=20ea154eab2654ea4566f08c4a340a451e36698a87357d2ca90e58dbc2fa5197";
 	
 }
@@ -34,6 +33,8 @@ h1 {
     opacity: 1;
 	background-size: contain;
     display: inline;
+    border-radius: 40px;
+    padding: 20px;
 	
 }
 
@@ -96,10 +97,26 @@ li {
 }
 
 .meal {
+    color: black;
 	margin: 20px 0;
-	background-color:aquamarine;
-	opacity: 1;
+	background-color: #33475bCC;
 	background-size: contain;
+	border-radius: 25px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.meal_after {
+        color: white;
+    	margin: 20px 0;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+    	background-color: #33475bD9;
+    	background-size: contain;
+    	border-radius: 25px;
+    	position: relative;
 }
 
 .text-center {
@@ -107,16 +124,14 @@ li {
 }
 
 .videoWrapper {
-	position: sticky;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
+	position: relative;
+	padding-top: 56.25%;
+	width: 100%;
 }
 
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position:absolute;
+	top:0px;
 	width: 100%;
 	height: 100%;
 }
